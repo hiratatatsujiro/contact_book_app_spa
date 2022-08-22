@@ -1,6 +1,10 @@
 /* eslint-disable */
 <template>
-  <v-img v-bind:src="require('@/assets/junior-highschool.png')" width="100%" height="100%"></v-img>
+  <v-img
+    v-bind:src="require('@/assets/junior-highschool.png')"
+    width="100vw"
+    height="100vh"
+  ></v-img>
 </template>
 
 <script>
