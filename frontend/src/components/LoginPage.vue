@@ -24,7 +24,7 @@
             dense
           ></v-text-field>
           <v-text-field
-            label="メイ"
+            label="メイdd"
             placeholder="全角カタカナで入力してください"
             outlined
             dense

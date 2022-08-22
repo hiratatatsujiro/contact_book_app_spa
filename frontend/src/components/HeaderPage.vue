@@ -5,7 +5,7 @@
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-app-bar-title>Contact Book App</v-app-bar-title>
       <v-tabs class="d-flex justify-end align-right">
-        <v-tab> 新規登録 </v-tab>
+        <v-tab><router-link to="/sign_up">新規登録</router-link></v-tab>
         <v-tab> ログイン </v-tab>
       </v-tabs>
     </v-app-bar>
